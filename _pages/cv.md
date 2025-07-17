@@ -1,3 +1,9 @@
+---
+layout: cv
+title: "CV"
+permalink: /cv/
+author_profile: true
+---
 # PARSA RAHBARI
 
 [LinkedIn](https://linkedin.com/in/parsa-rahbari-780529326) ⋄ [GitHub](https://github.com/parsa-rahbari-82) ⋄ [Medium](https://medium.com/@prahbari82)
