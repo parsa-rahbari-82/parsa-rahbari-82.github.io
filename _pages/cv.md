@@ -11,9 +11,12 @@ author_profile: true
 ## EDUCATION
 
 **Amirkabir University of Technology - Tehran Polytechnic**
-*Bachelor’s degree in Computer Science*
+
+Bachelor’s degree in Computer Science
+
 September 2022 – June 2026
-**GPA:** 3.82
+
+GPA: 3.82
 
 ### Research Interests
 
