@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parsa Rahbari - Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,98 +31,119 @@
     </header>
 
     <section id="home">
-        <div class="home-content">
-            <img src="1.jpg" alt="Parsa Rahbari" width="10%" height="10%">
-            <p>Computer Science student at Amirkabir University of Technology, focused on scientific ML, RL, and
-                numerical methods.</p>
+        <div class="hero" style="background-image: url('1.jpg');">
+            <div class="hero-content">
+                <h2>Welcome</h2>
+                <p>Computer Science student at Amirkabir University of Technology, focused on scientific ML, RL, and
+                    numerical methods.</p>
+            </div>
         </div>
     </section>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>Research Assistant focused on scientific ML, RL, and numerical methods.</p>
-        <p>Research Interests: Reinforcement Learning, Deep Learning, Scientific Machine Learning, Numerical Analysis.
-        </p>
-        <p>Skills:</p>
-        <ul>
-            <li>Programming: Python, C++, PyTorch, JAX</li>
-            <li>Languages: English (Fluent), Persian (Native)</li>
-        </ul>
-        <a href="cv.pdf" download>Download CV</a>
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>Research Assistant focused on scientific ML, RL, and numerical methods.</p>
+                <p><strong>Research Interests:</strong> Reinforcement Learning, Deep Learning, Scientific Machine
+                    Learning, Numerical Analysis.</p>
+                <p><strong>Skills:</strong></p>
+                <ul>
+                    <li>Programming: Python, C++, PyTorch, JAX</li>
+                    <li>Languages: English (Fluent), Persian (Native)</li>
+                </ul>
+                <a href="cv.pdf" download class="btn">Download CV</a>
+            </div>
+        </div>
     </section>
 
     <section id="experience">
-        <h2>Experience</h2>
-        <div class="exp-item">
-            <h3>Research Assistant, Mindlab-AUT</h3>
-            <p>Sep 2024 – Present, Tehran, Iran</p>
-            <p>Applied neural networks to solve differential equations for modeling biological systems.</p>
-        </div>
-        <div class="exp-item">
-            <h3>Teaching Assistant</h3>
-            <p>Feb 2025 – Present</p>
-            <ul>
-                <li>Deep Learning – Dr. Fatemeh Shakeri</li>
-                <li>Numerical Analysis – Dr. Mostafa Shamsi</li>
-            </ul>
-        </div>
-        <div class="exp-item">
-            <h3>Publications</h3>
-            <ul>
-                <li>Modeling Cellular Invasion with DeepONets – Learning growth and diffusion parameters (under review).
-                    Supervised by Prof. Abbaszadeh.</li>
-                <li>Accelerating Diffusion Models – Improving diffusion model inference for sample-inefficient tasks
-                    like RL (ongoing). In collaboration with Prof. Rohban, Sharif University of Technology.</li>
-            </ul>
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="exp-grid">
+                <div class="exp-card">
+                    <h3>Research Assistant, Mindlab-AUT</h3>
+                    <p><em>Sep 2024 – Present, Tehran, Iran</em></p>
+                    <p>Applied neural networks to solve differential equations for modeling biological systems.</p>
+                </div>
+                <div class="exp-card">
+                    <h3>Teaching Assistant</h3>
+                    <p><em>Feb 2025 – Present</em></p>
+                    <ul>
+                        <li>Deep Learning – Dr. Fatemeh Shakeri</li>
+                        <li>Numerical Analysis – Dr. Mostafa Shamsi</li>
+                    </ul>
+                </div>
+                <div class="exp-card">
+                    <h3>Publications</h3>
+                    <ul>
+                        <li>Modeling Cellular Invasion with DeepONets – Learning growth and diffusion parameters (under
+                            review). Supervised by Prof. Abbaszadeh.</li>
+                        <li>Accelerating Diffusion Models – Improving diffusion model inference for sample-inefficient
+                            tasks like RL (ongoing). In collaboration with Prof. Rohban, Sharif University of
+                            Technology.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Q-Learning Macro-Actions</h3>
-                <p>Improved FrozenLake-v1 agent with action chunking.</p>
-                <a href="https://github.com/parsa-rahbari-82/Action-chunking" target="_blank">GitHub Repo</a>
-            </div>
-            <div class="project-card">
-                <h3>Manifold Learning</h3>
-                <p>Isomap and PCA/t-SNE on MNIST/Iran map.</p>
-                <a href="https://github.com/parsa-rahbari-82/manifold-learning-in-practice-" target="_blank">GitHub
-                    Repo</a>
-            </div>
-            <div class="project-card">
-                <h3>PageRank</h3>
-                <p>Implemented with power iteration and eigendecomposition.</p>
-                <a href="https://github.com/parsa-rahbari-82/pagerank-graph-analysis" target="_blank">GitHub Repo</a>
-            </div>
-            <div class="project-card">
-                <h3>Map Coloring CSP</h3>
-                <p>Used MRV/LCV and AC-3 for CSP heuristics.</p>
-                <a href="https://github.com/parsa-rahbari-82/map-coloring-csp" target="_blank">GitHub Repo</a>
-            </div>
-            <div class="project-card">
-                <h3>Pacman</h3>
-                <p>Built with custom AI for ghost logic.</p>
-                <a href="https://github.com/parsa-rahbari-82/pacman" target="_blank">GitHub Repo</a>
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Q-Learning Macro-Actions</h3>
+                    <p>Improved FrozenLake-v1 agent with action chunking.</p>
+                    <a href="https://github.com/parsa-rahbari-82/Action-chunking" target="_blank" class="btn">GitHub
+                        Repo</a>
+                </div>
+                <div class="project-card">
+                    <h3>Manifold Learning</h3>
+                    <p>Isomap and PCA/t-SNE on MNIST/Iran map.</p>
+                    <a href="https://github.com/parsa-rahbari-82/manifold-learning-in-practice-" target="_blank"
+                        class="btn">GitHub Repo</a>
+                </div>
+                <div class="project-card">
+                    <h3>PageRank</h3>
+                    <p>Implemented with power iteration and eigendecomposition.</p>
+                    <a href="https://github.com/parsa-rahbari-82/pagerank-graph-analysis" target="_blank"
+                        class="btn">GitHub Repo</a>
+                </div>
+                <div class="project-card">
+                    <h3>Map Coloring CSP</h3>
+                    <p>Used MRV/LCV and AC-3 for CSP heuristics.</p>
+                    <a href="https://github.com/parsa-rahbari-82/map-coloring-csp" target="_blank" class="btn">GitHub
+                        Repo</a>
+                </div>
+                <div class="project-card">
+                    <h3>Pacman</h3>
+                    <p>Built with custom AI for ghost logic.</p>
+                    <a href="https://github.com/parsa-rahbari-82/pacman" target="_blank" class="btn">GitHub Repo</a>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <ul>
-            <li>Email: <a href="mailto:prahbari82@gmail.com">prahbari82@gmail.com</a></li>
-            <li>GitHub: <a href="https://github.com/parsa-rahbari-82" target="_blank">github.com/parsa-rahbari-82</a>
-            </li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/parsa-rahbari-780529326"
-                    target="_blank">linkedin.com/in/parsa-rahbari-780529326</a></li>
-            <li>Medium: <a href="https://medium.com/@prahbari82" target="_blank">medium.com/@prahbari82</a></li>
-        </ul>
+        <div class="container">
+            <h2>Contact</h2>
+            <ul class="contact-list">
+                <li><strong>Email:</strong> <a href="mailto:prahbari82@gmail.com">prahbari82@gmail.com</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/parsa-rahbari-82"
+                        target="_blank">github.com/parsa-rahbari-82</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/parsa-rahbari-780529326"
+                        target="_blank">linkedin.com/in/parsa-rahbari-780529326</a></li>
+                <li><strong>Medium:</strong> <a href="https://medium.com/@prahbari82"
+                        target="_blank">medium.com/@prahbari82</a></li>
+            </ul>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Parsa Rahbari</p>
+        <div class="container">
+            <p>&copy; 2025 Parsa Rahbari.</p>
+        </div>
     </footer>
 
     <script src="js/script.js"></script>
